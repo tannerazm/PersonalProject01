@@ -1,0 +1,280 @@
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Permanent Marker', cursive;*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Gentium Plus", serif;
+}
+
+header {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.headermain {
+  display: block;
+}
+
+.headername {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: table-cell;
+  width: 15%;
+  height: 50px;
+  background-color: whitesmoke;
+  text-align: left;
+  float: left;
+  white-space: pre;
+  overflow: visible;
+}
+
+.headername b {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: xx-large;
+  color: black;
+  margin-left: 10px;
+  white-space: pre;
+  overflow: visible;
+}
+
+.headerlinks {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: table-cell;
+  float: right;
+  width: 85%;
+  height: 500px;
+  overflow: visible;
+}
+
+.nb {
+  list-style-type: none;
+  position: fixed;
+  background-color: whitesmoke;
+  text-align: right;
+  width: 85vw;
+  height: 50px;
+  float: right;
+}
+
+.nb ul li {
+  display: inline-table;
+  font-size: xx-large;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-left: 20px;
+  border-right: 20px;
+}
+
+.nb a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: 2px whitesmoke solid;
+}
+
+.nb a:hover {
+  text-decoration: none;
+  color: rgb(4, 112, 4);
+  /* background-color: rgb(190, 190, 190);
+  border-top: 5px rgb(5, 56, 5) solid;
+  border-bottom: 4px rgb(5, 56, 5) solid;
+  border-left: 4px rgb(5, 56, 5) solid;
+  border-right: 4px rgb(5, 56, 5) solid; */
+}
+
+a.currentLink:link {
+  text-decoration: solid underline black 3px;
+}
+
+main {
+  flex-direction: row;
+  flex: 1;
+  width: 100vw;
+}
+
+.left,
+.main,
+.right {
+  float: left;
+  color: white;
+}
+
+.left.column,
+.right.column {
+  background-color: rgb(5, 56, 5);
+}
+
+.left.column {
+  display: table-column;
+  float: left;
+  width: 15%;
+  min-height: 100vw;
+  background-color: rgb(5, 56, 5);
+  text-align: center;
+}
+
+.profile-picture {
+  margin-top: 25px;
+  box-shadow: 20px 20px 20px -10px black;
+  border-radius: 25%;
+  width: 75%;
+  height: 75%;
+  vertical-align: middle;
+}
+
+.aboutme {
+  height: 300px;
+  margin-right: 12.5%;
+  margin-left: 12.5%;
+  margin-top: 15px;
+  vertical-align: middle;
+  color: whitesmoke;
+  font-weight: normal;
+}
+
+.main.column {
+  display: table-column;
+  width: 70%;
+  min-height: 100vw;
+  background-color: rgb(0, 43, 0);
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.mainheader {
+  display: flex;
+}
+
+.mainheaderp {
+  font-size: 35px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 40px;
+  border-bottom: 4px whitesmoke solid;
+  text-align: center;
+}
+
+.maincontent {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.maincontentp {
+  margin: 40px;
+  font-size: 20px;
+  padding-bottom: 30px;
+  border-bottom: 4px whitesmoke dashed;
+}
+
+.maincontenth1 {
+  margin: 40px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.wowlogo {
+  height: 5%;
+  width: 5%;
+  padding-right: 40px;
+  float: left;
+}
+
+.leaguelogo {
+  height: 5%;
+  width: 10%;
+  float: right;
+}
+
+.mountainlogo1 {
+  height: 8%;
+  width: 8%;
+  padding-right: 40px;
+  float: left;
+}
+
+.mountainlogo2 {
+  height: 8%;
+  width: 8%;
+  padding-right: 40px;
+  float: right;
+}
+
+.michaellogo {
+  border-radius: 50%;
+  height: 100px;
+  margin-right: 40px;
+  float: left;
+}
+
+.cutlerlogo {
+  border-radius: 50%;
+  height: 100px;
+  margin-left: 40px;
+  float: right;
+}
+
+.quote1,
+.quote2 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 65px;
+  text-align: center;
+}
+
+.quote2 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.tannerquote,
+.nealequote {
+  font-family: "Permanent Marker", cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.nealequote {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.right.column {
+  display: table-column;
+  width: 15%;
+  min-height: 100vw;
+  float: right;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 75px;
+  width: 100%;
+  background-color: rgb(25, 75, 25);
+}
+
+footer a {
+  flex-wrap: wrap;
+}
+
+span.socialmediaspan {
+  justify-content: center;
+  display: flex;
+}
+
+.facebook,
+.linkedin,
+.twitter {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  box-shadow: 20px 20px 20px -10px black;
+}
